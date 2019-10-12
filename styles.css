@@ -111,47 +111,36 @@ body {
     .col-small-1 {
         width: calc((1 / 12) * 100%);
     }
-
     .col-small-2 {
         width: calc(2 / 12 * 100%);
     }
-
     .col-small-3 {
         width: calc(3 / 12 * 100%);
     }
-
     .col-small-4 {
         width: calc(4 / 12 * 100%);
     }
-
     .col-small-5 {
         width: calc((5 / 12) * 100%);
     }
-
     .col-small-6 {
         width: calc(6 / 12 * 100%);
     }
-
     .col-small-7 {
         width: calc(7 / 12 * 100%);
     }
-
     .col-small-8 {
         width: calc(8 / 12 * 100%);
     }
-
     .col-small-9 {
         width: calc(1 / 12 * 100%);
     }
-
     .col-small-10 {
         width: calc(10 / 12 * 100%);
     }
-
     .col-small-11 {
         width: calc(11 / 12 * 100%);
     }
-
     .col-small-12 {
         width: calc(12 / 12 * 100%);
     }
@@ -165,47 +154,36 @@ body {
     .col-medium-1 {
         width: calc((1 / 12) * 100%);
     }
-
     .col-medium-2 {
         width: calc(2 / 12 * 100%);
     }
-
     .col-medium-3 {
         width: calc(3 / 12 * 100%);
     }
-
     .col-medium-4 {
         width: calc(4 / 12 * 100%);
     }
-
     .col-medium-5 {
         width: calc((5 / 12) * 100%);
     }
-
     .col-medium-6 {
         width: calc(6 / 12 * 100%);
     }
-
     .col-medium-7 {
         width: calc(7 / 12 * 100%);
     }
-
     .col-medium-8 {
         width: calc(8 / 12 * 100%);
     }
-
     .col-medium-9 {
         width: calc(1 / 12 * 100%);
     }
-
     .col-medium-10 {
         width: calc(10 / 12 * 100%);
     }
-
     .col-medium-11 {
         width: calc(11 / 12 * 100%);
     }
-
     .col-medium-12 {
         width: calc(12 / 12 * 100%);
     }
@@ -219,47 +197,36 @@ body {
     .col-large-1 {
         width: calc((1 / 12) * 100%);
     }
-
     .col-large-2 {
         width: calc(2 / 12 * 100%);
     }
-
     .col-large-3 {
         width: calc(3 / 12 * 100%);
     }
-
     .col-large-4 {
         width: calc(4 / 12 * 100%);
     }
-
     .col-large-5 {
         width: calc((5 / 12) * 100%);
     }
-
     .col-large-6 {
         width: calc(6 / 12 * 100%);
     }
-
     .col-large-7 {
         width: calc(7 / 12 * 100%);
     }
-
     .col-large-8 {
         width: calc(8 / 12 * 100%);
     }
-
     .col-large-9 {
         width: calc(1 / 12 * 100%);
     }
-
     .col-large-10 {
         width: calc(10 / 12 * 100%);
     }
-
     .col-large-11 {
         width: calc(11 / 12 * 100%);
     }
-
     .col-large-12 {
         width: calc(12 / 12 * 100%);
     }
@@ -338,7 +305,6 @@ h4 {
 h5 {
     font-size: 2em;
 }
-
 
 /* 8. MARGINS */
 
