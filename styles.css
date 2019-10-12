@@ -1,0 +1,620 @@
+/* 1. HTML AND BODY */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* RESETS  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+/* 2. INCLUDED FONTS */
+
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Inter-Loom', sans-serif;
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+}
+
+
+/* 3. A FLEXIBLE CONTAINER */
+
+.container-fluid {
+    display: flex;
+    height: fit-content;
+}
+
+
+/* 4. A GROUP OF COLUMNS */
+
+.row {
+    height: fit-content;
+    width: 100%;
+}
+
+
+/* 5. #START OF TWELVE COLUMN GRID */
+
+
+/* 5.1 SMALLER SCREENS */
+
+@media screen and (max-width: 719.999999px) {
+    /* Using small */
+    .col-small-1 {
+        width: calc((1 / 12) * 100%);
+    }
+
+    .col-small-2 {
+        width: calc(2 / 12 * 100%);
+    }
+
+    .col-small-3 {
+        width: calc(3 / 12 * 100%);
+    }
+
+    .col-small-4 {
+        width: calc(4 / 12 * 100%);
+    }
+
+    .col-small-5 {
+        width: calc((5 / 12) * 100%);
+    }
+
+    .col-small-6 {
+        width: calc(6 / 12 * 100%);
+    }
+
+    .col-small-7 {
+        width: calc(7 / 12 * 100%);
+    }
+
+    .col-small-8 {
+        width: calc(8 / 12 * 100%);
+    }
+
+    .col-small-9 {
+        width: calc(1 / 12 * 100%);
+    }
+
+    .col-small-10 {
+        width: calc(10 / 12 * 100%);
+    }
+
+    .col-small-11 {
+        width: calc(11 / 12 * 100%);
+    }
+
+    .col-small-12 {
+        width: calc(12 / 12 * 100%);
+    }
+}
+
+
+/* 5.2 MEDIUM SIZE */
+
+@media screen and (min-width: 720px) and (max-width: 1023.9999px) {
+    /* Using medium  */
+    .col-medium-1 {
+        width: calc((1 / 12) * 100%);
+    }
+
+    .col-medium-2 {
+        width: calc(2 / 12 * 100%);
+    }
+
+    .col-medium-3 {
+        width: calc(3 / 12 * 100%);
+    }
+
+    .col-medium-4 {
+        width: calc(4 / 12 * 100%);
+    }
+
+    .col-medium-5 {
+        width: calc((5 / 12) * 100%);
+    }
+
+    .col-medium-6 {
+        width: calc(6 / 12 * 100%);
+    }
+
+    .col-medium-7 {
+        width: calc(7 / 12 * 100%);
+    }
+
+    .col-medium-8 {
+        width: calc(8 / 12 * 100%);
+    }
+
+    .col-medium-9 {
+        width: calc(1 / 12 * 100%);
+    }
+
+    .col-medium-10 {
+        width: calc(10 / 12 * 100%);
+    }
+
+    .col-medium-11 {
+        width: calc(11 / 12 * 100%);
+    }
+
+    .col-medium-12 {
+        width: calc(12 / 12 * 100%);
+    }
+}
+
+
+/* 5.3 LARGE SIZE */
+
+@media screen and (min-width: 1024px) {
+    /* Using large  */
+    .col-large-1 {
+        width: calc((1 / 12) * 100%);
+    }
+
+    .col-large-2 {
+        width: calc(2 / 12 * 100%);
+    }
+
+    .col-large-3 {
+        width: calc(3 / 12 * 100%);
+    }
+
+    .col-large-4 {
+        width: calc(4 / 12 * 100%);
+    }
+
+    .col-large-5 {
+        width: calc((5 / 12) * 100%);
+    }
+
+    .col-large-6 {
+        width: calc(6 / 12 * 100%);
+    }
+
+    .col-large-7 {
+        width: calc(7 / 12 * 100%);
+    }
+
+    .col-large-8 {
+        width: calc(8 / 12 * 100%);
+    }
+
+    .col-large-9 {
+        width: calc(1 / 12 * 100%);
+    }
+
+    .col-large-10 {
+        width: calc(10 / 12 * 100%);
+    }
+
+    .col-large-11 {
+        width: calc(11 / 12 * 100%);
+    }
+
+    .col-large-12 {
+        width: calc(12 / 12 * 100%);
+    }
+}
+
+
+/* 5.4 OTHER SCREENS */
+
+.col-1 {
+    width: calc((1 / 12) * 100%);
+}
+
+.col-2 {
+    width: calc(2 / 12 * 100%);
+}
+
+.col-3 {
+    width: calc(3 / 12 * 100%);
+}
+
+.col-4 {
+    width: calc(4 / 12 * 100%);
+}
+
+.col-5 {
+    width: calc((5 / 12) * 100%);
+}
+
+.col-6 {
+    width: calc(6 / 12 * 100%);
+}
+
+.col-7 {
+    width: calc(7 / 12 * 100%);
+}
+
+.col-8 {
+    width: calc(8 / 12 * 100%);
+}
+
+.col-9 {
+    width: calc(1 / 12 * 100%);
+}
+
+.col-10 {
+    width: calc(10 / 12 * 100%);
+}
+
+.col-11 {
+    width: calc(11 / 12 * 100%);
+}
+
+.col-12 {
+    width: calc(12 / 12 * 100%);
+}
+
+
+/* 6. FONT SIZES */
+
+h1 {
+    font-size: 0.8em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.7em;
+}
+
+h5 {
+    font-size: 2em;
+}
+
+
+/* 7. PADDING */
+
+p {
+    padding: ;
+}
+
+
+/* 8. MARGINS */
+
+
+/* 8.1 ALL MARGINS */
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 0.2em;
+}
+
+.m-2 {
+    margin: 0.4em;
+}
+
+.m-3 {
+    margin: 0.6em;
+}
+
+.m-4 {
+    margin: 0.8em;
+}
+
+.m-5 {
+    margin: 1em;
+}
+
+
+/* 8.2 MARGINGS TOP */
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 0.2em;
+}
+
+.mt-2 {
+    margin-top: 0.4em;
+}
+
+.mt-3 {
+    margin-top: 0.6em;
+}
+
+.mt-4 {
+    margin-top: 0.8em;
+}
+
+.mt-5 {
+    margin-top: 1em;
+}
+
+
+/* 8.3 MARGIN RIGHT */
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1 {
+    margin-right: 0.2em;
+}
+
+.mr-2 {
+    margin-right: 0.4em;
+}
+
+.mr-3 {
+    margin-right: 0.6em;
+}
+
+.mr-4 {
+    margin-right: 0.8em;
+}
+
+.mr-5 {
+    margin-right: 1em;
+}
+
+
+/* 8.4 MARGIN BOTTOM  */
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 0.2em;
+}
+
+.mb-2 {
+    margin-bottom: 0.4em;
+}
+
+.mb-3 {
+    margin-bottom: 0.6em;
+}
+
+.mb-4 {
+    margin-bottom: 0.8em;
+}
+
+.mb-5 {
+    margin-bottom: 1em;
+}
+
+
+/* 8.6 MARGIN LEFT */
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.ml-1 {
+    margin-left: 0.2em;
+}
+
+.ml-2 {
+    margin-left: 0.4em;
+}
+
+.ml-3 {
+    margin-left: 0.6em;
+}
+
+.ml-4 {
+    margin-left: 0.8em;
+}
+
+.ml-5 {
+    margin-left: 1em;
+}
+
+
+/* 9.1 ALL PADDINGS */
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 0.2em;
+}
+
+.p-2 {
+    padding: 0.4em;
+}
+
+.p-3 {
+    padding: 0.6em;
+}
+
+.p-4 {
+    padding: 0.8em;
+}
+
+.p-5 {
+    padding: 1em;
+}
+
+
+/* 9.2 PADDINGS TOP */
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-1 {
+    padding-top: 0.2em;
+}
+
+.pt-2 {
+    padding-top: 0.4em;
+}
+
+.pt-3 {
+    padding-top: 0.6em;
+}
+
+.pt-4 {
+    padding-top: 0.8em;
+}
+
+.pt-5 {
+    padding-top: 1em;
+}
+
+
+/* 9.3 PADDINGS RIGHT */
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pr-1 {
+    padding-right: 0.2em;
+}
+
+.pr-2 {
+    padding-right: 0.4em;
+}
+
+.pr-3 {
+    padding-right: 0.6em;
+}
+
+.pr-4 {
+    padding-right: 0.8em;
+}
+
+.pr-5 {
+    padding-right: 1em;
+}
+
+
+/* 9.4 PADDINGS BOTTOM  */
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pb-1 {
+    padding-bottom: 0.2em;
+}
+
+.pb-2 {
+    padding-bottom: 0.4em;
+}
+
+.pb-3 {
+    padding-bottom: 0.6em;
+}
+
+.pb-4 {
+    padding-bottom: 0.8em;
+}
+
+.pb-5 {
+    padding-bottom: 1em;
+}
+
+
+/* 9.6 PADDINGS LEFT */
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-1 {
+    padding-left: 0.2em;
+}
+
+.pl-2 {
+    padding-left: 0.4em;
+}
+
+.pl-3 {
+    padding-left: 0.6em;
+}
+
+.pl-4 {
+    padding-left: 0.8em;
+}
+
+.pl-5 {
+    padding-left: 1em;
+}
